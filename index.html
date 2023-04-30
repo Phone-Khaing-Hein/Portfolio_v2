@@ -31,6 +31,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/2.0.0/css/imagehover.min.css">
 </head>
 
 <body>
@@ -440,37 +441,134 @@
 
   <!-- portfolio section starts  -->
 
-  <!-- <section id="portfolio" class="container portfolio">
+  <section id="portfolio" class="container portfolio">
 
-    <div class="heading">portfolio</div>
+    <div class="heading">Portfolio</div>
 
     <ul class="controls">
-      <li class="buttons active" data-filter="all">all</li>
-      <li class="buttons" data-filter="design">design</li>
-      <li class="buttons" data-filter="graphic">graphic</li>
-      <li class="buttons" data-filter="code">code</li>
+      <li class="buttons active" data-filter="all">All</li>
+      <li class="buttons" data-filter="javascript">Javascript</li>
+      <li class="buttons" data-filter="java">Java</li>
+      <li class="buttons" data-filter="php">PHP</li>
     </ul>
 
     <div class="images">
+      <figure class="imghvr-flip-diag-1 shadow">
+        <img src="./images/javascript1.png" style="width: 350px;" class="filter-image javascript">
+        <figcaption class="d-flex align-items-center justify-content-center">
+          <div class="d-flex flex-column align-items-center">
+            <p>E-commerce</p>
+            <button class="btn btn-outline-light"
+              onclick="window.open('https://robin-online-shop.netlify.app/', '_blank')">See
+              more</button>
+          </div>
+        </figcaption>
+      </figure>
+      <figure class="imghvr-flip-diag-1 shadow">
+        <img src="./images/javascript2.png" style="width: 350px;" class="filter-image javascript">
+        <figcaption class="d-flex align-items-center justify-content-center">
+          <div class="d-flex flex-column align-items-center">
+            <p>Desserts</p>
+            <button class="btn btn-outline-light"
+              onclick="window.open('https://dessert-foods.netlify.app/', '_blank')">See
+              more</button>
+          </div>
+        </figcaption>
+      </figure>
+      <figure class="imghvr-flip-diag-1 shadow">
+        <img src="./images/javascript3.png" style="width: 350px;" class="filter-image javascript">
+        <figcaption class="d-flex align-items-center justify-content-center">
+          <div class="d-flex flex-column align-items-center">
+            <p>Vegetarian</p>
+            <button class="btn btn-outline-light"
+              onclick="window.open('https://vegetarianfoodie.netlify.app/', '_blank')">See
+              more</button>
+          </div>
+        </figcaption>
+      </figure>
+      <figure class="imghvr-flip-diag-1 shadow">
+        <img src="./images/javascript4.png" style="width: 350px;" class="filter-image javascript">
+        <figcaption class="d-flex align-items-center justify-content-center">
+          <div class="d-flex flex-column align-items-center">
+            <p>Movies</p>
+            <button class="btn btn-outline-light"
+              onclick="window.open('https://pkhmoviechannel.netlify.app/', '_blank')">See
+              more</button>
+          </div>
+        </figcaption>
+      </figure>
+      <figure class="imghvr-flip-diag-1 shadow">
+        <img src="./images/javascript5.png" style="width: 350px;" class="filter-image javascript">
+        <figcaption class="d-flex align-items-center justify-content-center">
+          <div class="d-flex flex-column align-items-center">
+            <p>Online Shop Frontend</p>
+            <button class="btn btn-outline-light"
+              onclick="window.open('https://github.com/Rimuru-Tempest-26/online_shop_frontend', '_blank')">See
+              more</button>
+          </div>
+        </figcaption>
+      </figure>
 
-      <img src="images/design1.jpg" class="filter-image design">
-      <img src="images/design2.jpg" class="filter-image design">
-      <img src="images/design3.jpg" class="filter-image design">
-      <img src="images/design4.jpg" class="filter-image design">
+      <figure class="imghvr-flip-diag-1 shadow">
+        <img src="./images/java1.png" style="width: 350px;" class="filter-image java">
+        <figcaption class="d-flex align-items-center justify-content-center">
+          <div class="d-flex flex-column align-items-center">
+            <p>Movies Management System</p>
+            <button class="btn btn-outline-light"
+              onclick="window.open('https://github.com/Rimuru-Tempest-26/movie', '_blank')">See
+              more</button>
+          </div>
+        </figcaption>
+      </figure>
+      <figure class="imghvr-flip-diag-1 shadow">
+        <img src="./images/java2.png" style="width: 350px;" class="filter-image java">
+        <figcaption class="d-flex align-items-center justify-content-center">
+          <div class="d-flex flex-column align-items-center">
+            <p>Learning Management System</p>
+            <button class="btn btn-outline-light"
+              onclick="window.open('https://github.com/Rimuru-Tempest-26/ai-lms', '_blank')">See
+              more</button>
+          </div>
+        </figcaption>
+      </figure>
+      <figure class="imghvr-flip-diag-1 shadow">
+        <img src="./images/java3.png" style="width: 350px;" class="filter-image java">
+        <figcaption class="d-flex align-items-center justify-content-center">
+          <div class="d-flex flex-column align-items-center">
+            <p>Balance Management System</p>
+            <button class="btn btn-outline-light"
+              onclick="window.open('https://github.com/Rimuru-Tempest-26/balance', '_blank')">See
+              more</button>
+          </div>
+        </figcaption>
+      </figure>
 
-      <img src="images/graph1.jpg" class="filter-image graphic">
-      <img src="images/graph2.jpg" class="filter-image graphic">
-      <img src="images/graph3.jpg" class="filter-image graphic">
-      <img src="images/graph4.jpg" class="filter-image graphic">
-      <img src="images/graph5.jpg" class="filter-image graphic">
-
-      <img src="images/code1.jpg" class="filter-image code">
-      <img src="images/code2.jpg" class="filter-image code">
-      <img src="images/code3.jpg" class="filter-image code">
+      <figure class="imghvr-flip-diag-1 shadow">
+        <img src="./images/javascript5.png" style="width: 350px;" class="filter-image php">
+        <figcaption class="d-flex align-items-center justify-content-center">
+          <div class="d-flex flex-column align-items-center">
+            <p>Online Shop API</p>
+            <button class="btn btn-outline-light"
+              onclick="window.open('https://github.com/Rimuru-Tempest-26/online_shop_api', '_blank')">See
+              more</button>
+          </div>
+        </figcaption>
+      </figure>
+      <figure class="imghvr-flip-diag-1 shadow">
+        <img src="./images/php1.png" style="width: 350px;" class="filter-image php">
+        <figcaption class="d-flex align-items-center justify-content-center">
+          <div class="d-flex flex-column align-items-center">
+            <p>Blog</p>
+            <button class="btn btn-outline-light"
+              onclick="window.open('https://github.com/Rimuru-Tempest-26/lara_blog', '_blank')">See
+              more</button>
+          </div>
+        </figcaption>
+      </figure>
 
     </div>
 
-  </section> -->
+  </section>
 
   <!-- portfolio section ends -->
 
@@ -485,19 +583,19 @@
       <div class="col-md-4 info">
 
         <div class="info-box">
-          <h2><i class="fas fa-map-marker-alt"></i>Address</h2>
+          <h2><i class="fas fa-map-marker-alt" style="font-size: 20px;"></i>Address</h2>
           <p>
             No(124), Yandanar Myint Zuu St, Thingangyun, Yangon
           </p>
         </div>
 
         <div class="info-box">
-          <h2><i class="fas fa-envelope"></i>E-mail</h2>
+          <h2><i class="fas fa-envelope" style="font-size: 20px;"></i>E-mail</h2>
           <p>pkh2662003@gmail.com</p>
         </div>
 
         <div class="info-box">
-          <h2><i class="fas fa-phone"></i>Phone</h2>
+          <h2><i class="fas fa-phone" style="font-size: 20px;"></i>Phone</h2>
           <p>+959777839928</p>
         </div>
 

@@ -498,6 +498,7 @@ i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 15px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -511,8 +512,6 @@ i {
 .portfolio .images .filter-image {
   height: 18rem;
   width: 25rem;
-  border-radius: 0.5rem;
-  margin: 2rem;
   -o-object-fit: cover;
   object-fit: cover;
 }
